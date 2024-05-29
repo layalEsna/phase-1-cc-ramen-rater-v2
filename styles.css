@@ -21,16 +21,23 @@ header {
   background-color: black;
 }
 
-#ramen-menu {
+#ramen-menu .new-detail-image{
   display: flex;
   overflow-x: auto;
   margin: 1rem 0;
   max-width: calc(100vw - 2rem);
 }
-
+/* 
 #ramen-menu img {
   flex: 0 1 auto;
   height: 150px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+} */
+#ramen-menu img {
+  flex: 0 1 auto;
+  max-height: 150px;
+  width: auto;
   margin-right: 0.5rem;
   cursor: pointer;
 }
@@ -100,3 +107,10 @@ form h4 {
   color: white;
   background-color: black;
 }
+
+/* .new-detail-image {
+  max-height: 350px;
+  width: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;
+} */
